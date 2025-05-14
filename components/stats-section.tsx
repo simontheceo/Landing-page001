@@ -71,18 +71,18 @@ export function StatsSection() {
         </div>
 
         {/* Feature Icons Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
           {/* Feature 1 */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex flex-col items-center text-center space-y-2"
+            className="flex flex-col items-center text-center space-y-1"
           >
-            <div className="w-12 h-12 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
-              <Calendar className="w-6 h-6 text-white" strokeWidth={1.5} />
+            <div className="w-10 h-10 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
+              <Calendar className="w-5 h-5 text-white" strokeWidth={1.5} />
             </div>
-            <h3 className="text-white font-semibold text-sm md:text-base">See Results In 30 DAYS</h3>
+            <h3 className="text-white font-semibold text-xs md:text-sm">See Results In 30 DAYS</h3>
           </motion.div>
 
           {/* Feature 2 */}
@@ -90,12 +90,12 @@ export function StatsSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.5 }}
-            className="flex flex-col items-center text-center space-y-2"
+            className="flex flex-col items-center text-center space-y-1"
           >
-            <div className="w-12 h-12 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
-              <Shield className="w-6 h-6 text-white" strokeWidth={1.5} />
+            <div className="w-10 h-10 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
+              <Shield className="w-5 h-5 text-white" strokeWidth={1.5} />
             </div>
-            <h3 className="text-white font-semibold text-sm md:text-base">Secure Data</h3>
+            <h3 className="text-white font-semibold text-xs md:text-sm">Secure Data</h3>
           </motion.div>
 
           {/* Feature 3 */}
@@ -103,12 +103,12 @@ export function StatsSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
-            className="flex flex-col items-center text-center space-y-2"
+            className="flex flex-col items-center text-center space-y-1"
           >
-            <div className="w-12 h-12 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
-              <Zap className="w-6 h-6 text-white" strokeWidth={1.5} />
+            <div className="w-10 h-10 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
+              <Zap className="w-5 h-5 text-white" strokeWidth={1.5} />
             </div>
-            <h3 className="text-white font-semibold text-sm md:text-base">Easy Setup</h3>
+            <h3 className="text-white font-semibold text-xs md:text-sm">Easy Setup</h3>
           </motion.div>
 
           {/* Feature 4 */}
@@ -116,12 +116,12 @@ export function StatsSection() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.7 }}
-            className="flex flex-col items-center text-center space-y-2"
+            className="flex flex-col items-center text-center space-y-1"
           >
-            <div className="w-12 h-12 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
-              <BarChart3 className="w-6 h-6 text-white" strokeWidth={1.5} />
+            <div className="w-10 h-10 rounded-full border border-white/80 flex items-center justify-center bg-white/10 backdrop-filter backdrop-blur-sm transition-all duration-300 hover:scale-105">
+              <BarChart3 className="w-5 h-5 text-white" strokeWidth={1.5} />
             </div>
-            <h3 className="text-white font-semibold text-sm md:text-base">Regular Check-Ins</h3>
+            <h3 className="text-white font-semibold text-xs md:text-sm">Regular Check-Ins</h3>
           </motion.div>
         </div>
       </div>
