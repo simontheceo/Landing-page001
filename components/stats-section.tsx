@@ -71,7 +71,7 @@ export function StatsSection() {
         </div>
 
         {/* Feature Icons Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-1 md:gap-2">
           {/* Feature 1 */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
